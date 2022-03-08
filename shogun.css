@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 64px;
+    color: darkmagenta;
+    text-align: center;
+}
+
+.georgina{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mini{
+    width: 256px;
+    height: 256px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.mini p{
+    padding: auto 0;
+    color: blue;
+}
+
+body{
+    background: url(./Images/wp9557416.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section{
+    width: 100%;
+}
+
+.box{
+   width: 50%;
+    margin: 0 auto;
+}
+
+.box p{
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+
+.main-image{
+    width: 50%;
+}
